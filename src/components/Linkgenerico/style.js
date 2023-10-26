@@ -1,8 +1,7 @@
 import { styled } from "styled-components";
 
 const MeuA = styled.a`
-    margin: 2em;
-
+    margin: 5em;  
 `;
 
 export {MeuA};
