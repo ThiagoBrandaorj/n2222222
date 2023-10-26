@@ -1,4 +1,4 @@
-import Cartao from "../../components/Cartao/cartao";
+import Cartao from "../../components/Cartao/Cartao";
 import { ContainerListagem, TituloListagem } from "./style";
 
 const dados = [

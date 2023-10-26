@@ -1,4 +1,4 @@
-import { ContainerListagem, TituloListagem } from "./style";
+import { ContainerCartao, Titulo } from "./style";
 
 const Cartao = ( props ) => (
     <ContainerCartao>

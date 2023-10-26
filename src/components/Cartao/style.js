@@ -2,11 +2,17 @@ import { styled } from "styled-components";
 
 const ContainerCartao = styled.div`
     display: flex;
-    gap: 15px;
+    flex-direction: column;
+    border: solid black 1px;
+
+    p{
+        text-align: center;
+        font-weight: bolder;
+    }
 `;
 
-const TituloCartao = styled.h1`
-    color: red;
-`;
+const Titulo = styled.h3`
+    color: forestgreen;
+`
 
-export {ContainerCartao, TituloCartao};
+export {ContainerCartao, Titulo}

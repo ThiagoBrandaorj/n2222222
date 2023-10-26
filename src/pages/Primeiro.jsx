@@ -1,4 +1,6 @@
 import LinkGenerico from "../components/Linkgenerico/Linkgenerico";
+import { Link } from "react-router-dom";
+import LinkSegundo from "../components/LinkSegundo";
 
 const Primeiro = () => {
     
@@ -11,9 +13,9 @@ const Primeiro = () => {
         ["https://www.gov.br/receitafederal/pt-br", "Receita_Federal"]
     ];
 
-    const links = dados.map((ele) => (
+    const links = dados.map((ele, i) => (
         <LinkGenerico
-           key = {ele[1]}
+           key = {{i}}
            texto= {ele[1]}
            endereco= {ele[0]}
          />
@@ -25,6 +27,7 @@ const Primeiro = () => {
              <h5>Mini titulo</h5>
              <p>Meu texto</p>
              {links}
+             <Link to="listagem">Listagem</Link>
             </div>);
 }
 
