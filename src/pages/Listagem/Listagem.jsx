@@ -1,4 +1,4 @@
-import Cartao from "../../components/Cartao/Cartao";
+import Cartao from "../../components/Cartao/cartao.jsx";
 import { ContainerListagem, TituloListagem } from "./style";
 
 const dados = [
